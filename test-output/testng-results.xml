@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-26T12:31:54 IST" name="Open Cart App Regression Suite" finished-at="2023-04-26T12:32:55 IST" duration-ms="60636">
+    <groups>
+    </groups>
+    <test started-at="2023-04-26T12:31:54 IST" name="Login page Test" finished-at="2023-04-26T12:32:12 IST" duration-ms="17288">
+      <class name="com.qa.opencart.testcases.loginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.opencart.testcases.loginPageTest@dd4aec3]" started-at="2023-04-26T12:31:54 IST" name="setup" finished-at="2023-04-26T12:32:06 IST" duration-ms="11823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginPagetest()[pri:1, instance:com.qa.opencart.testcases.loginPageTest@dd4aec3]" started-at="2023-04-26T12:32:06 IST" name="loginPagetest" finished-at="2023-04-26T12:32:06 IST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPagetest -->
+        <test-method signature="getPageurltest()[pri:2, instance:com.qa.opencart.testcases.loginPageTest@dd4aec3]" started-at="2023-04-26T12:32:08 IST" name="getPageurltest" finished-at="2023-04-26T12:32:08 IST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageurltest -->
+        <test-method signature="isForgotPasswordExist()[pri:3, instance:com.qa.opencart.testcases.loginPageTest@dd4aec3]" started-at="2023-04-26T12:32:08 IST" name="isForgotPasswordExist" finished-at="2023-04-26T12:32:08 IST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isForgotPasswordExist -->
+        <test-method signature="loginTest()[pri:4, instance:com.qa.opencart.testcases.loginPageTest@dd4aec3]" started-at="2023-04-26T12:32:08 IST" name="loginTest" finished-at="2023-04-26T12:32:10 IST" duration-ms="2158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.testcases.loginPageTest@dd4aec3]" started-at="2023-04-26T12:32:10 IST" name="tearDown" finished-at="2023-04-26T12:32:12 IST" duration-ms="1277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.opencart.testcases.loginPageTest -->
+    </test> <!-- Login page Test -->
+    <test started-at="2023-04-26T12:31:54 IST" name="Account page test" finished-at="2023-04-26T12:32:55 IST" duration-ms="60633">
+      <class name="com.qa.opencart.testcases.accoutPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.opencart.testcases.accoutPageTest@7645f03e]" started-at="2023-04-26T12:31:54 IST" name="setup" finished-at="2023-04-26T12:32:07 IST" duration-ms="12909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="accSetup()[pri:0, instance:com.qa.opencart.testcases.accoutPageTest@7645f03e]" started-at="2023-04-26T12:32:07 IST" name="accSetup" finished-at="2023-04-26T12:32:10 IST" duration-ms="2975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accSetup -->
+        <test-method signature="getAccHeaderSecList()[pri:0, instance:com.qa.opencart.testcases.accoutPageTest@7645f03e]" started-at="2023-04-26T12:32:10 IST" name="getAccHeaderSecList" finished-at="2023-04-26T12:32:11 IST" duration-ms="499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAccHeaderSecList -->
+        <test-method signature="getPageurltest()[pri:0, instance:com.qa.opencart.testcases.accoutPageTest@7645f03e]" started-at="2023-04-26T12:32:11 IST" name="getPageurltest" finished-at="2023-04-26T12:32:11 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageurltest -->
+        <test-method signature="islogoutlinkExist()[pri:0, instance:com.qa.opencart.testcases.accoutPageTest@7645f03e]" started-at="2023-04-26T12:32:11 IST" name="islogoutlinkExist" finished-at="2023-04-26T12:32:11 IST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- islogoutlinkExist -->
+        <test-method signature="loginPagetest()[pri:0, instance:com.qa.opencart.testcases.accoutPageTest@7645f03e]" started-at="2023-04-26T12:32:11 IST" name="loginPagetest" finished-at="2023-04-26T12:32:11 IST" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPagetest -->
+        <test-method signature="searchCheckTest(java.lang.String)[pri:0, instance:com.qa.opencart.testcases.accoutPageTest@7645f03e]" started-at="2023-04-26T12:32:11 IST" name="searchCheckTest" data-provider="getProductKey" finished-at="2023-04-26T12:32:13 IST" duration-ms="1687" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Macbook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCheckTest -->
+        <test-method signature="searchCheckTest(java.lang.String)[pri:0, instance:com.qa.opencart.testcases.accoutPageTest@7645f03e]" started-at="2023-04-26T12:32:13 IST" name="searchCheckTest" data-provider="getProductKey" finished-at="2023-04-26T12:32:15 IST" duration-ms="2106" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iMac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCheckTest -->
+        <test-method signature="searchCheckTest(java.lang.String)[pri:0, instance:com.qa.opencart.testcases.accoutPageTest@7645f03e]" started-at="2023-04-26T12:32:15 IST" name="searchCheckTest" data-provider="getProductKey" finished-at="2023-04-26T12:32:16 IST" duration-ms="1573" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCheckTest -->
+        <test-method signature="searchTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.testcases.accoutPageTest@7645f03e]" started-at="2023-04-26T12:32:16 IST" name="searchTest" data-provider="getProductData" finished-at="2023-04-26T12:32:35 IST" duration-ms="19168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Macbook]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MacBook Pro]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method signature="searchTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.testcases.accoutPageTest@7645f03e]" started-at="2023-04-26T12:32:35 IST" name="searchTest" data-provider="getProductData" finished-at="2023-04-26T12:32:45 IST" duration-ms="9344" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Macbook]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MacBook Air]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method signature="searchTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.testcases.accoutPageTest@7645f03e]" started-at="2023-04-26T12:32:45 IST" name="searchTest" data-provider="getProductData" finished-at="2023-04-26T12:32:48 IST" duration-ms="3402" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iMac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iMac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method signature="searchTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.testcases.accoutPageTest@7645f03e]" started-at="2023-04-26T12:32:48 IST" name="searchTest" data-provider="getProductData" finished-at="2023-04-26T12:32:51 IST" duration-ms="2926" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Samsung SyncMaster 941BW]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method signature="searchTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.testcases.accoutPageTest@7645f03e]" started-at="2023-04-26T12:32:51 IST" name="searchTest" data-provider="getProductData" finished-at="2023-04-26T12:32:54 IST" duration-ms="3187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Samsung Galaxy Tab 10.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.testcases.accoutPageTest@7645f03e]" started-at="2023-04-26T12:32:54 IST" name="tearDown" finished-at="2023-04-26T12:32:55 IST" duration-ms="603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.opencart.testcases.accoutPageTest -->
+    </test> <!-- Account page test -->
+  </suite> <!-- Open Cart App Regression Suite -->
+</testng-results>
