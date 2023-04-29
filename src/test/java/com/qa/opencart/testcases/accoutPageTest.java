@@ -1,6 +1,6 @@
 package com.qa.opencart.testcases;
 
-import static org.testng.Assert.assertEquals;
+
 
 import java.util.ArrayList;
 
