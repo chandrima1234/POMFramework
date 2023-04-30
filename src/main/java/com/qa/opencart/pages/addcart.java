@@ -10,5 +10,6 @@ public class addcart {
  
  public void click() {
 	 System.out.println("click");
+	 System.out.println("click 2"); 
  }
 		 }
