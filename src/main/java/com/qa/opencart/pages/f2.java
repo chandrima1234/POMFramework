@@ -1,6 +1,6 @@
 package com.qa.opencart.pages;
 
-public class test {
+public class f2 {
 	
 	int p=10;
 
