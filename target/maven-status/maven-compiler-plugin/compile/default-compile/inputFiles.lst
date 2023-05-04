@@ -1,10 +1,16 @@
+C:\Users\Chandrima\eclipse-workspace\seleniumPOM\src\main\java\com\qa\opencart\pages\f2.java
 C:\Users\Chandrima\eclipse-workspace\seleniumPOM\src\main\java\com\qa\opencart\errors\appErrors.java
+C:\Users\Chandrima\eclipse-workspace\seleniumPOM\src\main\java\com\qa\opencart\pages\addcart.java
+C:\Users\Chandrima\eclipse-workspace\seleniumPOM\src\main\java\com\qa\opencart\pages\test.java
 C:\Users\Chandrima\eclipse-workspace\seleniumPOM\src\main\java\com\qa\opencart\utils\browserUtil.java
 C:\Users\Chandrima\eclipse-workspace\seleniumPOM\src\main\java\com\qa\opencart\pages\searchResultPage.java
+C:\Users\Chandrima\eclipse-workspace\seleniumPOM\src\main\java\com\qa\opencart\pages\demo.java
 C:\Users\Chandrima\eclipse-workspace\seleniumPOM\src\main\java\com\qa\opencart\pages\productInfoPage.java
 C:\Users\Chandrima\eclipse-workspace\seleniumPOM\src\main\java\com\qa\opencart\pages\registrationPage.java
 C:\Users\Chandrima\eclipse-workspace\seleniumPOM\src\main\java\com\qa\opencart\pages\loginPage.java
 C:\Users\Chandrima\eclipse-workspace\seleniumPOM\src\main\java\com\qa\opencart\constants\appConstant.java
+C:\Users\Chandrima\eclipse-workspace\seleniumPOM\src\main\java\com\qa\opencart\listeners\ExtentReportListener.java
+C:\Users\Chandrima\eclipse-workspace\seleniumPOM\src\main\java\com\qa\opencart\listeners\TestAllureListener.java
 C:\Users\Chandrima\eclipse-workspace\seleniumPOM\src\main\java\com\qa\opencart\pages\accountPage.java
 C:\Users\Chandrima\eclipse-workspace\seleniumPOM\src\main\java\com\qa\opencart\exceptions\frameworkExceptions.java
 C:\Users\Chandrima\eclipse-workspace\seleniumPOM\src\main\java\com\qa\opencart\factory\optionsManager.java
