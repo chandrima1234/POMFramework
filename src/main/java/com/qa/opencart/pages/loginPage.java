@@ -5,10 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 import com.qa.opencart.constants.appConstant;
-import com.qa.opencart.factory.driverfactory;
 import com.qa.opencart.utils.ElementUtil;
-
-import jdk.internal.org.jline.utils.Log;
 
 public class loginPage {
 	

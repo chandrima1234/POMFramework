@@ -1,0 +1,5 @@
+com\qa\opencart\testcases\registrationPageText.class
+com\qa\opencart\base\baseTest.class
+com\qa\opencart\testcases\accoutPageTest.class
+com\qa\opencart\testcases\loginPageTest.class
+com\qa\opencart\testcases\productPageTest.class

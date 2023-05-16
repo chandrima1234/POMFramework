@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite thread-count="2" parallel="tests" name="Failed suite [Open Cart App Regression Suite]" guice-stage="DEVELOPMENT" verbose="4">
-  <listeners>
-    <listener class-name="com.qa.opencart.listeners.ExtentReportListener"/>
-    <listener class-name="com.qa.opencart.listeners.TestAllureListener"/>
-  </listeners>
   <test thread-count="2" parallel="tests" name="Account page test(failed)" verbose="4">
     <classes>
       <class name="com.qa.opencart.testcases.accoutPageTest">
         <methods>
           <include name="tearDown"/>
-          <include name="searchCheckTest" invocation-numbers="2"/>
-          <include name="searchTest" invocation-numbers="0 1 2 3 4"/>
+          <include name="getPageurltest"/>
+          <include name="searchCheckTest"/>
+          <include name="searchTest"/>
           <include name="accSetup"/>
           <include name="setup"/>
+          <include name="getAccHeaderSecList"/>
+          <include name="loginPagetest"/>
+          <include name="islogoutlinkExist"/>
         </methods>
       </class> <!-- com.qa.opencart.testcases.accoutPageTest -->
     </classes>

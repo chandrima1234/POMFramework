@@ -8,7 +8,7 @@ import com.qa.opencart.utils.ElementUtil;
 
 public class registrationPage {
 	
-	private WebDriver driver;
+	public WebDriver driver;
 	public ElementUtil eleutil;
 	
 	By firstName = By.id("input-firstname");

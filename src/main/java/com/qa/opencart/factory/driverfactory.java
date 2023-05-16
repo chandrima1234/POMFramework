@@ -41,7 +41,7 @@ public class driverfactory {
 		highlight =prop.getProperty("highlight");
 		optionsManager optionsManager = new optionsManager(prop);
 		 
-		//System.out.println("browser name is " +BrowserName);
+		System.out.println("browser name is " +BrowserName);
 		if(BrowserName.equals("chrome")) {
 			System.setProperty("webdriver.http.factory", "jdk-http-client");
 			WebDriverManager.chromedriver().setup();
@@ -101,7 +101,7 @@ public class driverfactory {
 						try {
 							switch (envName) {
 							case "qa":
-								ip = new FileInputStream("./src/test/resources/config/qa.config.properties");
+								ip = new FileInputStream("./src/test/resources/config/config.properties");
 								break;
 							case "dev":
 								ip = new FileInputStream("./src/test/resources/config/dev.config.properties");
@@ -110,7 +110,7 @@ public class driverfactory {
 								ip = new FileInputStream("./src/test/resources/config/stage.config.properties");
 								break;
 							case "prod":
-								ip = new FileInputStream("./src/test/resources/config/config.properties");
+								ip = new FileInputStream("./src/test/resources/config/qa.config.properties");
 								break;
 
 							default:
