@@ -1,4 +1,13 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 73.487 s - in TestSuite
+Tests run: 7, Failures: 3, Errors: 0, Skipped: 4, Time elapsed: 12.216 s <<< FAILURE! - in TestSuite
+setup(com.qa.opencart.testcases.accoutPageTest)  Time elapsed: 8.676 s  <<< FAILURE!
+java.lang.NoSuchMethodError: com.google.common.collect.ImmutableMap.of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lcom/google/common/collect/ImmutableMap;
+
+setup(com.qa.opencart.testcases.loginPageTest)  Time elapsed: 3.331 s  <<< FAILURE!
+java.lang.NoSuchMethodError: com.google.common.collect.ImmutableMap.of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lcom/google/common/collect/ImmutableMap;
+
+loginPagetest(com.qa.opencart.testcases.loginPageTest)  Time elapsed: 0.016 s  <<< FAILURE!
+java.lang.NullPointerException
+

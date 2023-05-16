@@ -1,76 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="73.487" tests="16" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="12.216" tests="7" errors="0" skipped="4" failures="3">
   <properties>
-    <property name="java.specification.version" value="17"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.class.path" value="C:\Users\Chandrima\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.18.0.20210603-1206\jars\plexus-classworlds-2.6.0.jar"/>
-    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
-    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
     <property name="user.timezone" value="Asia/Calcutta"/>
-    <property name="java.vm.specification.version" value="17"/>
-    <property name="os.name" value="Windows 11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="11"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
-    <property name="sun.boot.library.path" value="C:\Users\Chandrima\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre\bin"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
     <property name="jdk.debug" value="release"/>
     <property name="maven.home" value="C:\Users\Chandrima\eclipse-workspace\seleniumPOM\EMBEDDED"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Chandrima"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2022-10-18"/>
-    <property name="java.home" value="C:\Users\Chandrima\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.11"/>
     <property name="file.separator" value="\"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="17.0.5+8"/>
+    <property name="java.runtime.version" value="11.0.11+9-LTS-194"/>
     <property name="user.name" value="Chandrima"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
-    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="java.vendor.version" value="Temurin-17.0.5+8"/>
-    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\CHANDR~1\AppData\Local\Temp\"/>
-    <property name="java.version" value="17.0.5"/>
+    <property name="java.version" value="11.0.11"/>
     <property name="user.dir" value="C:\Users\Chandrima\eclipse-workspace\seleniumPOM"/>
     <property name="os.arch" value="amd64"/>
     <property name="maven.multiModuleProjectDirectory" value="C:\Users\Chandrima\eclipse-workspace\seleniumPOM"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Users\Chandrima\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.11\bin;C:\Users\Chandrima\apache-maven-3.8.4-bin\apache-maven-3.8.4\bin;C:\Program Files\nodejs\;C:\strawberry\c\bin;C:\strawberry\perl\bin;C:\Program Files\Git\cmd;C:\Users\Chandrima\scoop\shims;C:\Users\Chandrima\AppData\Local\Microsoft\WindowsApps;C:\apache-maven-3.9.1-bin\apache-maven-3.9.1\bin;C:\Users\Chandrima\AppData\Roaming\npm;C:\Users\Chandrima\AppData\Local\Programs\Microsoft VS Code\bin;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.11\bin;C:\Users\Chandrima\apache-maven-3.8.4-bin\apache-maven-3.8.4\bin;C:\Program Files\nodejs\;C:\strawberry\c\bin;C:\strawberry\perl\bin;C:\Program Files\Git\cmd;C:\Users\Chandrima\scoop\shims;C:\Users\Chandrima\AppData\Local\Microsoft\WindowsApps;C:\apache-maven-3.9.1-bin\apache-maven-3.9.1\bin;C:\Users\Chandrima\AppData\Roaming\npm;C:\Users\Chandrima\AppData\Local\Programs\Microsoft VS Code\bin;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.vendor" value="Eclipse Adoptium"/>
-    <property name="java.vm.version" value="17.0.5+8"/>
-    <property name="classworlds.conf" value="C:\Users\Chandrima\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7458804322437074462.tmp"/>
+    <property name="java.vm.version" value="11.0.11+9-LTS-194"/>
+    <property name="classworlds.conf" value="C:\Users\Chandrima\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf15906980142957517520.tmp"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="61.0"/>
+    <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="loginPagetest" classname="com.qa.opencart.testcases.loginPageTest" time="0.551"/>
-  <testcase name="getPageurltest" classname="com.qa.opencart.testcases.loginPageTest" time="0.077"/>
-  <testcase name="isForgotPasswordExist" classname="com.qa.opencart.testcases.loginPageTest" time="0.1"/>
-  <testcase name="getAccHeaderSecList" classname="com.qa.opencart.testcases.accoutPageTest" time="0.251"/>
-  <testcase name="getPageurltest" classname="com.qa.opencart.testcases.accoutPageTest" time="0.048"/>
-  <testcase name="islogoutlinkExist" classname="com.qa.opencart.testcases.accoutPageTest" time="0.163"/>
-  <testcase name="loginPagetest" classname="com.qa.opencart.testcases.accoutPageTest" time="0.078"/>
-  <testcase name="loginTest" classname="com.qa.opencart.testcases.loginPageTest" time="1.975"/>
-  <testcase name="searchCheckTest" classname="com.qa.opencart.testcases.accoutPageTest" time="2.219"/>
-  <testcase name="searchCheckTest" classname="com.qa.opencart.testcases.accoutPageTest" time="1.237"/>
-  <testcase name="searchCheckTest" classname="com.qa.opencart.testcases.accoutPageTest" time="1.356"/>
-  <testcase name="searchTest" classname="com.qa.opencart.testcases.accoutPageTest" time="5.197"/>
-  <testcase name="searchTest" classname="com.qa.opencart.testcases.accoutPageTest" time="6.015"/>
-  <testcase name="searchTest" classname="com.qa.opencart.testcases.accoutPageTest" time="7.291"/>
-  <testcase name="searchTest" classname="com.qa.opencart.testcases.accoutPageTest" time="16.823"/>
-  <testcase name="searchTest" classname="com.qa.opencart.testcases.accoutPageTest" time="5.602"/>
+  <testcase name="setup" classname="com.qa.opencart.testcases.accoutPageTest" time="8.676">
+    <failure message="com.google.common.collect.ImmutableMap.of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lcom/google/common/collect/ImmutableMap;" type="java.lang.NoSuchMethodError">java.lang.NoSuchMethodError: com.google.common.collect.ImmutableMap.of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lcom/google/common/collect/ImmutableMap;
+</failure>
+    <system-out><![CDATA[...
+... TestNG 7.7.1 by Cédric Beust (cedric@beust.com)
+...
+
+Test Suite started!
+Test Suite started!
+I am in onStart method Account page test
+I am in onStart method Login page Test
+-----> Running test cases on environment: ----->null
+No env is given..hence running it on QA env.....
+-----> Running test cases on environment: ----->null
+No env is given..hence running it on QA env.....
+]]></system-out>
+    <system-err><![CDATA[SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="accSetup" classname="com.qa.opencart.testcases.accoutPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.qa.opencart.testcases.accoutPageTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[getAccHeaderSecList started!
+I am in onTestStart method getAccHeaderSecList start
+I am in onTestSkipped method getAccHeaderSecList skipped
+getAccHeaderSecList skipped!
+I am in onTestFailure method getAccHeaderSecList failed
+getAccHeaderSecList failed!
+]]></system-out>
+  </testcase>
+  <testcase name="setup" classname="com.qa.opencart.testcases.loginPageTest" time="3.331">
+    <failure message="com.google.common.collect.ImmutableMap.of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lcom/google/common/collect/ImmutableMap;" type="java.lang.NoSuchMethodError">java.lang.NoSuchMethodError: com.google.common.collect.ImmutableMap.of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lcom/google/common/collect/ImmutableMap;
+</failure>
+    <system-out><![CDATA[I am in onFinish method Account page test
+Test Suite is ending!
+]]></system-out>
+  </testcase>
+  <testcase name="loginPagetest" classname="com.qa.opencart.testcases.loginPageTest" time="0">
+    <skipped message="com.google.common.collect.ImmutableMap.of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lcom/google/common/collect/ImmutableMap;"/>
+    <system-out><![CDATA[loginPagetest started!
+I am in onTestStart method loginPagetest start
+I am in onTestSkipped method loginPagetest skipped
+]]></system-out>
+  </testcase>
+  <testcase name="loginPagetest" classname="com.qa.opencart.testcases.loginPageTest" time="0.016">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+</failure>
+    <system-out><![CDATA[loginPagetest skipped!
+I am in onTestFailure method loginPagetest failed
+]]></system-out>
+  </testcase>
+  <testcase name="tearDown" classname="com.qa.opencart.testcases.loginPageTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[loginPagetest failed!
+]]></system-out>
+  </testcase>
 </testsuite>
