@@ -13,7 +13,7 @@ public class appConstant {
 	public static final int DEFAULT_TIMEOUT = 5;
 	public static final int DEFAULT_LARGE_TIMEOUT = 10;
 	
-	public static final int MACBOOK_IMAGE_COUNT =5;
+	public static final int MACBOOK_IMAGE_COUNT =3;
 	public static final int MACBOOK__PRO_IMAGE_COUNT =4;
 	public static final int IMAC_IMAGE_COUNT =3;
 	public static final String REGISTER_SHEET_NAME = "register";
